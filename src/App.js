@@ -1,4 +1,5 @@
 import React, {useState, useCallback} from 'react'
+import Test from './Test'
 
 
 
@@ -30,9 +31,10 @@ function App() {
           <div>{Dan} x {value} = {Dan * value}</div>
         )
       })}
+    <Test />
     </div>
+    
   )
-
 
 }
 
